@@ -1,5 +1,5 @@
 ﻿Public Class Exam
-    Private Sub Label40_Click(sender As Object, e As EventArgs) Handles Label40.Click
+    Private Sub Label40_Click(sender As Object, e As EventArgs) 
 
     End Sub
 

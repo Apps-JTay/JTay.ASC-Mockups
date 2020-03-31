@@ -100,11 +100,23 @@
     <Compile Include="Exam.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="Finanical.Designer.vb">
+      <DependentUpon>Finanical.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Finanical.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Main Template.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Template.Designer.vb">
+      <DependentUpon>Main Template.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IOL.Designer.vb">
+      <DependentUpon>IOL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IOL.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -139,8 +151,14 @@
     <EmbeddedResource Include="Exam.resx">
       <DependentUpon>Exam.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Finanical.resx">
+      <DependentUpon>Finanical.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Template.resx">
+      <DependentUpon>Main Template.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IOL.resx">
+      <DependentUpon>IOL.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">

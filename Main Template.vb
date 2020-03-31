@@ -66,4 +66,8 @@
     Private Sub RadioButton11_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub Label50_Click(sender As Object, e As EventArgs) Handles Label50.Click
+
+    End Sub
 End Class
