@@ -23,15 +23,15 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim UltraDataColumn4 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OD")
-        Dim UltraDataColumn5 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OS")
-        Dim UltraDataColumn6 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OU")
-        Dim Appearance8 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
-        Dim Appearance9 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
-        Dim Appearance10 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
-        Dim Appearance11 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
-        Dim Appearance12 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
-        Dim Appearance13 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim UltraDataColumn10 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OD")
+        Dim UltraDataColumn11 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OS")
+        Dim UltraDataColumn12 As Infragistics.Win.UltraWinDataSource.UltraDataColumn = New Infragistics.Win.UltraWinDataSource.UltraDataColumn("OU")
+        Dim Appearance20 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance21 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance22 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance23 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance24 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
+        Dim Appearance25 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Dim Appearance7 As Infragistics.Win.Appearance = New Infragistics.Win.Appearance()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -39,7 +39,6 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.UltraDataSource1 = New Infragistics.Win.UltraWinDataSource.UltraDataSource(Me.components)
@@ -50,7 +49,6 @@ Partial Class Form1
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -63,16 +61,19 @@ Partial Class Form1
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.Label44 = New System.Windows.Forms.Label()
         Me.TextBox18 = New System.Windows.Forms.TextBox()
         Me.Label41 = New System.Windows.Forms.Label()
         Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Label46 = New System.Windows.Forms.Label()
         Me.ComboBox6 = New System.Windows.Forms.ComboBox()
         Me.UltraDateTimeEditor2 = New Infragistics.Win.UltraWinEditors.UltraDateTimeEditor()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Label38 = New System.Windows.Forms.Label()
         Me.RadioButton9 = New System.Windows.Forms.RadioButton()
+        Me.TextBox15 = New System.Windows.Forms.TextBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.UltraLabel6 = New Infragistics.Win.Misc.UltraLabel()
         Me.UltraLabel5 = New Infragistics.Win.Misc.UltraLabel()
@@ -80,6 +81,7 @@ Partial Class Form1
         Me.UltraLabel3 = New Infragistics.Win.Misc.UltraLabel()
         Me.UltraLabel2 = New Infragistics.Win.Misc.UltraLabel()
         Me.UltraLabel1 = New Infragistics.Win.Misc.UltraLabel()
+        Me.Label37 = New System.Windows.Forms.Label()
         Me.RadioButton10 = New System.Windows.Forms.RadioButton()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
@@ -120,21 +122,17 @@ Partial Class Form1
         Me.UltraTextEditor1 = New Infragistics.Win.UltraWinEditors.UltraTextEditor()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.Label37 = New System.Windows.Forms.Label()
         Me.RadioButton11 = New System.Windows.Forms.RadioButton()
         Me.RadioButton12 = New System.Windows.Forms.RadioButton()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.TextBox19 = New System.Windows.Forms.TextBox()
         Me.Label43 = New System.Windows.Forms.Label()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.Label48 = New System.Windows.Forms.Label()
-        Me.RadioButton13 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton14 = New System.Windows.Forms.RadioButton()
-        Me.Label49 = New System.Windows.Forms.Label()
         Me.Label50 = New System.Windows.Forms.Label()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         CType(Me.UltraDataSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UltraDateTimeEditor1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -148,7 +146,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(662, 24)
+        Me.Label1.Location = New System.Drawing.Point(752, 26)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(111, 18)
         Me.Label1.TabIndex = 0
@@ -158,7 +156,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(969, 25)
+        Me.Label2.Location = New System.Drawing.Point(1279, 29)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(113, 18)
         Me.Label2.TabIndex = 1
@@ -168,7 +166,7 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(160, 68)
+        Me.Label3.Location = New System.Drawing.Point(83, 68)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(64, 18)
         Me.Label3.TabIndex = 2
@@ -178,7 +176,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(103, 25)
+        Me.Label4.Location = New System.Drawing.Point(26, 23)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(121, 18)
         Me.Label4.TabIndex = 3
@@ -188,7 +186,7 @@ Partial Class Form1
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(662, 68)
+        Me.Label5.Location = New System.Drawing.Point(1027, 28)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(113, 18)
         Me.Label5.TabIndex = 4
@@ -198,27 +196,17 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(915, 70)
+        Me.Label6.Location = New System.Drawing.Point(752, 67)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(160, 18)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Recomended IOL Type"
         '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(125, 114)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(99, 18)
-        Me.Label7.TabIndex = 6
-        Me.Label7.Text = "Additional Info"
-        '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(1252, 25)
+        Me.Label8.Location = New System.Drawing.Point(581, 26)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(33, 18)
         Me.Label8.TabIndex = 7
@@ -228,7 +216,7 @@ Partial Class Form1
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(1230, 114)
+        Me.Label9.Location = New System.Drawing.Point(581, 71)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(38, 18)
         Me.Label9.TabIndex = 8
@@ -236,14 +224,14 @@ Partial Class Form1
         '
         'UltraDataSource1
         '
-        Me.UltraDataSource1.Band.Columns.AddRange(New Object() {UltraDataColumn4, UltraDataColumn5, UltraDataColumn6})
+        Me.UltraDataSource1.Band.Columns.AddRange(New Object() {UltraDataColumn10, UltraDataColumn11, UltraDataColumn12})
         '
         'ComboBox1
         '
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Right", "Left", "Complex"})
-        Me.ComboBox1.Location = New System.Drawing.Point(1291, 22)
+        Me.ComboBox1.Location = New System.Drawing.Point(620, 23)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 26)
         Me.ComboBox1.TabIndex = 9
@@ -251,7 +239,7 @@ Partial Class Form1
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(1274, 108)
+        Me.TextBox1.Location = New System.Drawing.Point(625, 65)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(121, 24)
         Me.TextBox1.TabIndex = 10
@@ -260,7 +248,7 @@ Partial Class Form1
         '
         Me.UltraDateTimeEditor1.DateTime = New Date(2020, 3, 30, 0, 0, 0, 0)
         Me.UltraDateTimeEditor1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UltraDateTimeEditor1.Location = New System.Drawing.Point(779, 21)
+        Me.UltraDateTimeEditor1.Location = New System.Drawing.Point(869, 23)
         Me.UltraDateTimeEditor1.Name = "UltraDateTimeEditor1"
         Me.UltraDateTimeEditor1.Size = New System.Drawing.Size(144, 26)
         Me.UltraDateTimeEditor1.TabIndex = 11
@@ -269,7 +257,7 @@ Partial Class Form1
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(1088, 22)
+        Me.TextBox2.Location = New System.Drawing.Point(1398, 26)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(127, 24)
         Me.TextBox2.TabIndex = 12
@@ -279,7 +267,7 @@ Partial Class Form1
         Me.ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"MEETH", "RETINA", "MSC", "NYEE"})
-        Me.ComboBox2.Location = New System.Drawing.Point(779, 64)
+        Me.ComboBox2.Location = New System.Drawing.Point(1144, 24)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(121, 26)
         Me.ComboBox2.TabIndex = 14
@@ -289,7 +277,7 @@ Partial Class Form1
         Me.ComboBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Phaco with IOL", "ECCE (Complex)", "IOL Exchange", "IOL Repositioning", "Pterygium w/Graft", "McCannel Suture", "Capsular tension ring", "Capsular stain", "Pupil management", "Artifical Iris", "Artisan Aphakia", "Malyugin Ring", "Other"})
-        Me.ComboBox3.Location = New System.Drawing.Point(231, 25)
+        Me.ComboBox3.Location = New System.Drawing.Point(154, 23)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(413, 26)
         Me.ComboBox3.TabIndex = 15
@@ -299,23 +287,15 @@ Partial Class Form1
         Me.ComboBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"Kenneth J. Rosenthal, MD", "B. David Gorman, MD"})
-        Me.ComboBox4.Location = New System.Drawing.Point(231, 64)
+        Me.ComboBox4.Location = New System.Drawing.Point(154, 64)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(413, 26)
         Me.ComboBox4.TabIndex = 16
         '
-        'TextBox3
-        '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(231, 111)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(984, 24)
-        Me.TextBox3.TabIndex = 17
-        '
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(1081, 68)
+        Me.TextBox4.Location = New System.Drawing.Point(918, 65)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 24)
         Me.TextBox4.TabIndex = 18
@@ -323,16 +303,16 @@ Partial Class Form1
         'TextBox5
         '
         Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(1274, 151)
+        Me.TextBox5.Location = New System.Drawing.Point(1169, 111)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(121, 24)
+        Me.TextBox5.Size = New System.Drawing.Size(182, 24)
         Me.TextBox5.TabIndex = 19
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(1218, 154)
+        Me.Label10.Location = New System.Drawing.Point(1113, 114)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(50, 18)
         Me.Label10.TabIndex = 20
@@ -342,7 +322,7 @@ Partial Class Form1
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(139, 150)
+        Me.Label20.Location = New System.Drawing.Point(62, 107)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(80, 18)
         Me.Label20.TabIndex = 22
@@ -353,7 +333,7 @@ Partial Class Form1
         Me.ComboBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"Kenneth J. Rosenthal, MD", "B. David Gorman, MD"})
-        Me.ComboBox5.Location = New System.Drawing.Point(231, 150)
+        Me.ComboBox5.Location = New System.Drawing.Point(154, 107)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(413, 26)
         Me.ComboBox5.TabIndex = 23
@@ -362,7 +342,7 @@ Partial Class Form1
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(657, 153)
+        Me.Label11.Location = New System.Drawing.Point(596, 113)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(94, 18)
         Me.Label11.TabIndex = 24
@@ -372,7 +352,7 @@ Partial Class Form1
         '
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton1.Location = New System.Drawing.Point(759, 151)
+        Me.RadioButton1.Location = New System.Drawing.Point(698, 111)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(51, 22)
         Me.RadioButton1.TabIndex = 25
@@ -384,7 +364,7 @@ Partial Class Form1
         '
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton2.Location = New System.Drawing.Point(813, 152)
+        Me.RadioButton2.Location = New System.Drawing.Point(752, 112)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(46, 22)
         Me.RadioButton2.TabIndex = 26
@@ -396,7 +376,7 @@ Partial Class Form1
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(873, 154)
+        Me.Label12.Location = New System.Drawing.Point(800, 112)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(94, 18)
         Me.Label12.TabIndex = 27
@@ -405,7 +385,7 @@ Partial Class Form1
         'TextBox6
         '
         Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(973, 153)
+        Me.TextBox6.Location = New System.Drawing.Point(900, 111)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(193, 24)
         Me.TextBox6.TabIndex = 28
@@ -413,6 +393,7 @@ Partial Class Form1
         'Panel2
         '
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel2.Controls.Add(Me.Label7)
         Me.Panel2.Controls.Add(Me.CheckBox4)
         Me.Panel2.Controls.Add(Me.TextBox18)
         Me.Panel2.Controls.Add(Me.Label41)
@@ -483,6 +464,42 @@ Partial Class Form1
         Me.CheckBox4.Text = "Yes"
         Me.CheckBox4.UseVisualStyleBackColor = True
         '
+        'TextBox18
+        '
+        Me.TextBox18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox18.Location = New System.Drawing.Point(1083, 41)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(193, 24)
+        Me.TextBox18.TabIndex = 49
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Location = New System.Drawing.Point(1026, 44)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(32, 18)
+        Me.Label41.TabIndex = 48
+        Me.Label41.Text = "HPI"
+        '
+        'TextBox16
+        '
+        Me.TextBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox16.Location = New System.Drawing.Point(657, 41)
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Size = New System.Drawing.Size(363, 24)
+        Me.TextBox16.TabIndex = 47
+        '
+        'ComboBox7
+        '
+        Me.ComboBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox7.FormattingEnabled = True
+        Me.ComboBox7.Items.AddRange(New Object() {"Kenneth J. Rosenthal, MD", "B. David Gorman, MD"})
+        Me.ComboBox7.Location = New System.Drawing.Point(690, 386)
+        Me.ComboBox7.Name = "ComboBox7"
+        Me.ComboBox7.Size = New System.Drawing.Size(376, 26)
+        Me.ComboBox7.TabIndex = 64
+        '
         'Label44
         '
         Me.Label44.AutoSize = True
@@ -493,36 +510,20 @@ Partial Class Form1
         Me.Label44.TabIndex = 50
         Me.Label44.Text = "PT informed to d/c prior to testing"
         '
-        'TextBox18
+        'Label46
         '
-        Me.TextBox18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox18.Location = New System.Drawing.Point(1091, 42)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(193, 24)
-        Me.TextBox18.TabIndex = 49
-        '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(1034, 45)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(32, 18)
-        Me.Label41.TabIndex = 48
-        Me.Label41.Text = "HPI"
-        '
-        'TextBox16
-        '
-        Me.TextBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox16.Location = New System.Drawing.Point(665, 42)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(363, 24)
-        Me.TextBox16.TabIndex = 47
+        Me.Label46.AutoSize = True
+        Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label46.Location = New System.Drawing.Point(575, 389)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(109, 18)
+        Me.Label46.TabIndex = 63
+        Me.Label46.Text = "Corticasteroids"
         '
         'ComboBox6
         '
         Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Location = New System.Drawing.Point(180, 42)
+        Me.ComboBox6.Location = New System.Drawing.Point(172, 41)
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(304, 21)
         Me.ComboBox6.TabIndex = 46
@@ -541,7 +542,7 @@ Partial Class Form1
         '
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(497, 42)
+        Me.Label39.Location = New System.Drawing.Point(489, 41)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(162, 18)
         Me.Label39.TabIndex = 45
@@ -561,7 +562,7 @@ Partial Class Form1
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(61, 41)
+        Me.Label38.Location = New System.Drawing.Point(53, 40)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(113, 18)
         Me.Label38.TabIndex = 44
@@ -578,6 +579,14 @@ Partial Class Form1
         Me.RadioButton9.TabStop = True
         Me.RadioButton9.Text = "No"
         Me.RadioButton9.UseVisualStyleBackColor = True
+        '
+        'TextBox15
+        '
+        Me.TextBox15.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox15.Location = New System.Drawing.Point(1176, 387)
+        Me.TextBox15.Name = "TextBox15"
+        Me.TextBox15.Size = New System.Drawing.Size(193, 24)
+        Me.TextBox15.TabIndex = 57
         '
         'Panel3
         '
@@ -598,9 +607,9 @@ Partial Class Form1
         Me.UltraLabel6.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Appearance8.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Appearance8.BorderColor = System.Drawing.Color.Black
-        Me.UltraLabel6.Appearance = Appearance8
+        Appearance20.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Appearance20.BorderColor = System.Drawing.Color.Black
+        Me.UltraLabel6.Appearance = Appearance20
         Me.UltraLabel6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UltraLabel6.Location = New System.Drawing.Point(1071, 3)
         Me.UltraLabel6.Name = "UltraLabel6"
@@ -613,9 +622,9 @@ Partial Class Form1
         Me.UltraLabel5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Appearance9.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Appearance9.BorderColor = System.Drawing.Color.Black
-        Me.UltraLabel5.Appearance = Appearance9
+        Appearance21.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Appearance21.BorderColor = System.Drawing.Color.Black
+        Me.UltraLabel5.Appearance = Appearance21
         Me.UltraLabel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UltraLabel5.Location = New System.Drawing.Point(744, 3)
         Me.UltraLabel5.Name = "UltraLabel5"
@@ -628,9 +637,9 @@ Partial Class Form1
         Me.UltraLabel4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Appearance10.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Appearance10.BorderColor = System.Drawing.Color.Black
-        Me.UltraLabel4.Appearance = Appearance10
+        Appearance22.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Appearance22.BorderColor = System.Drawing.Color.Black
+        Me.UltraLabel4.Appearance = Appearance22
         Me.UltraLabel4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UltraLabel4.Location = New System.Drawing.Point(406, 3)
         Me.UltraLabel4.Name = "UltraLabel4"
@@ -643,9 +652,9 @@ Partial Class Form1
         Me.UltraLabel3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Appearance11.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Appearance11.BorderColor = System.Drawing.Color.Black
-        Me.UltraLabel3.Appearance = Appearance11
+        Appearance23.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Appearance23.BorderColor = System.Drawing.Color.Black
+        Me.UltraLabel3.Appearance = Appearance23
         Me.UltraLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UltraLabel3.Location = New System.Drawing.Point(268, 3)
         Me.UltraLabel3.Name = "UltraLabel3"
@@ -658,9 +667,9 @@ Partial Class Form1
         Me.UltraLabel2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Appearance12.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Appearance12.BorderColor = System.Drawing.Color.Black
-        Me.UltraLabel2.Appearance = Appearance12
+        Appearance24.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Appearance24.BorderColor = System.Drawing.Color.Black
+        Me.UltraLabel2.Appearance = Appearance24
         Me.UltraLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UltraLabel2.Location = New System.Drawing.Point(136, 3)
         Me.UltraLabel2.Name = "UltraLabel2"
@@ -673,14 +682,24 @@ Partial Class Form1
         Me.UltraLabel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Appearance13.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.UltraLabel1.Appearance = Appearance13
+        Appearance25.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.UltraLabel1.Appearance = Appearance25
         Me.UltraLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UltraLabel1.Location = New System.Drawing.Point(3, 3)
         Me.UltraLabel1.Name = "UltraLabel1"
         Me.UltraLabel1.Size = New System.Drawing.Size(132, 25)
         Me.UltraLabel1.TabIndex = 0
         Me.UltraLabel1.Text = "Ordered Date"
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Location = New System.Drawing.Point(1093, 388)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(75, 18)
+        Me.Label37.TabIndex = 56
+        Me.Label37.Text = "Pharmacy"
         '
         'RadioButton10
         '
@@ -865,7 +884,7 @@ Partial Class Form1
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label24.Location = New System.Drawing.Point(316, 76)
+        Me.Label24.Location = New System.Drawing.Point(316, 73)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(173, 18)
         Me.Label24.TabIndex = 31
@@ -926,7 +945,7 @@ Partial Class Form1
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label21.Location = New System.Drawing.Point(148, 75)
+        Me.Label21.Location = New System.Drawing.Point(148, 72)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(139, 18)
         Me.Label21.TabIndex = 14
@@ -1078,29 +1097,11 @@ Partial Class Form1
         Me.ImageList1.ImageSize = New System.Drawing.Size(16, 16)
         Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
         '
-        'TextBox15
-        '
-        Me.TextBox15.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox15.Location = New System.Drawing.Point(1176, 387)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(193, 24)
-        Me.TextBox15.TabIndex = 57
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(1093, 388)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(75, 18)
-        Me.Label37.TabIndex = 56
-        Me.Label37.Text = "Pharmacy"
-        '
         'RadioButton11
         '
         Me.RadioButton11.AutoSize = True
         Me.RadioButton11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton11.Location = New System.Drawing.Point(284, 193)
+        Me.RadioButton11.Location = New System.Drawing.Point(236, 158)
         Me.RadioButton11.Name = "RadioButton11"
         Me.RadioButton11.Size = New System.Drawing.Size(46, 22)
         Me.RadioButton11.TabIndex = 60
@@ -1112,7 +1113,7 @@ Partial Class Form1
         '
         Me.RadioButton12.AutoSize = True
         Me.RadioButton12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton12.Location = New System.Drawing.Point(230, 192)
+        Me.RadioButton12.Location = New System.Drawing.Point(182, 157)
         Me.RadioButton12.Name = "RadioButton12"
         Me.RadioButton12.Size = New System.Drawing.Size(51, 22)
         Me.RadioButton12.TabIndex = 59
@@ -1124,7 +1125,7 @@ Partial Class Form1
         '
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(116, 195)
+        Me.Label42.Location = New System.Drawing.Point(68, 160)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(103, 18)
         Me.Label42.TabIndex = 58
@@ -1133,7 +1134,7 @@ Partial Class Form1
         'TextBox19
         '
         Me.TextBox19.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox19.Location = New System.Drawing.Point(414, 192)
+        Me.TextBox19.Location = New System.Drawing.Point(366, 157)
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.Size = New System.Drawing.Size(218, 24)
         Me.TextBox19.TabIndex = 61
@@ -1143,106 +1144,91 @@ Partial Class Form1
         '
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(332, 195)
+        Me.Label43.Location = New System.Drawing.Point(284, 160)
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(76, 18)
         Me.Label43.TabIndex = 62
         Me.Label43.Text = "Pre-Cert #"
-        '
-        'Label46
-        '
-        Me.Label46.AutoSize = True
-        Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(575, 389)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(109, 18)
-        Me.Label46.TabIndex = 63
-        Me.Label46.Text = "Corticasteroids"
-        '
-        'ComboBox7
-        '
-        Me.ComboBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox7.FormattingEnabled = True
-        Me.ComboBox7.Items.AddRange(New Object() {"Kenneth J. Rosenthal, MD", "B. David Gorman, MD"})
-        Me.ComboBox7.Location = New System.Drawing.Point(690, 386)
-        Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(376, 26)
-        Me.ComboBox7.TabIndex = 64
-        '
-        'TextBox20
-        '
-        Me.TextBox20.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox20.Location = New System.Drawing.Point(1373, 68)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(100, 24)
-        Me.TextBox20.TabIndex = 66
-        '
-        'Label48
-        '
-        Me.Label48.AutoSize = True
-        Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.Location = New System.Drawing.Point(1191, 72)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(178, 18)
-        Me.Label48.TabIndex = 65
-        Me.Label48.Text = "Target Post op Refraction"
-        '
-        'RadioButton13
-        '
-        Me.RadioButton13.AutoSize = True
-        Me.RadioButton13.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton13.Location = New System.Drawing.Point(1001, 193)
-        Me.RadioButton13.Name = "RadioButton13"
-        Me.RadioButton13.Size = New System.Drawing.Size(46, 22)
-        Me.RadioButton13.TabIndex = 69
-        Me.RadioButton13.TabStop = True
-        Me.RadioButton13.Text = "No"
-        Me.RadioButton13.UseVisualStyleBackColor = True
-        '
-        'RadioButton14
-        '
-        Me.RadioButton14.AutoSize = True
-        Me.RadioButton14.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton14.Location = New System.Drawing.Point(946, 193)
-        Me.RadioButton14.Name = "RadioButton14"
-        Me.RadioButton14.Size = New System.Drawing.Size(51, 22)
-        Me.RadioButton14.TabIndex = 68
-        Me.RadioButton14.TabStop = True
-        Me.RadioButton14.Text = "Yes"
-        Me.RadioButton14.UseVisualStyleBackColor = True
-        '
-        'Label49
-        '
-        Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(694, 195)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(246, 18)
-        Me.Label49.TabIndex = 67
-        Me.Label49.Text = "Patient prescribed Alpha - 1 Blocker "
         '
         'Label50
         '
         Me.Label50.AutoSize = True
         Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label50.ForeColor = System.Drawing.Color.Red
-        Me.Label50.Location = New System.Drawing.Point(1062, 194)
+        Me.Label50.Location = New System.Drawing.Point(621, 161)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(333, 20)
+        Me.Label50.Size = New System.Drawing.Size(242, 20)
         Me.Label50.TabIndex = 70
-        Me.Label50.Text = "ALERT WILL APPEAR IF CLICKED YES"
+        Me.Label50.Text = "PATIENT HIGH RISK ALERT"
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox3.Location = New System.Drawing.Point(1034, 67)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(160, 22)
+        Me.CheckBox3.TabIndex = 71
+        Me.CheckBox3.Text = "Femtosecond Laser"
+        Me.CheckBox3.UseVisualStyleBackColor = True
+        '
+        'CheckBox5
+        '
+        Me.CheckBox5.AutoSize = True
+        Me.CheckBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox5.Location = New System.Drawing.Point(1200, 67)
+        Me.CheckBox5.Name = "CheckBox5"
+        Me.CheckBox5.Size = New System.Drawing.Size(192, 22)
+        Me.CheckBox5.TabIndex = 72
+        Me.CheckBox5.Text = "Limbal Relaxing Incisions"
+        Me.CheckBox5.UseVisualStyleBackColor = True
+        '
+        'CheckBox7
+        '
+        Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox7.Location = New System.Drawing.Point(1398, 66)
+        Me.CheckBox7.Name = "CheckBox7"
+        Me.CheckBox7.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.CheckBox7.Size = New System.Drawing.Size(59, 22)
+        Me.CheckBox7.TabIndex = 74
+        Me.CheckBox7.Text = "ORA"
+        Me.CheckBox7.UseVisualStyleBackColor = True
+        '
+        'CheckBox8
+        '
+        Me.CheckBox8.AutoSize = True
+        Me.CheckBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox8.Location = New System.Drawing.Point(1470, 66)
+        Me.CheckBox8.Name = "CheckBox8"
+        Me.CheckBox8.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.CheckBox8.Size = New System.Drawing.Size(64, 22)
+        Me.CheckBox8.TabIndex = 75
+        Me.CheckBox8.Text = "iStent"
+        Me.CheckBox8.UseVisualStyleBackColor = True
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label7.Location = New System.Drawing.Point(141, 2)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(171, 18)
+        Me.Label7.TabIndex = 65
+        Me.Label7.Text = "High Risk Charaistics"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1563, 1045)
+        Me.Controls.Add(Me.CheckBox8)
+        Me.Controls.Add(Me.CheckBox7)
+        Me.Controls.Add(Me.CheckBox5)
+        Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.Label50)
-        Me.Controls.Add(Me.RadioButton13)
-        Me.Controls.Add(Me.RadioButton14)
-        Me.Controls.Add(Me.Label49)
-        Me.Controls.Add(Me.TextBox20)
-        Me.Controls.Add(Me.Label48)
         Me.Controls.Add(Me.Label43)
         Me.Controls.Add(Me.TextBox19)
         Me.Controls.Add(Me.RadioButton11)
@@ -1259,7 +1245,6 @@ Partial Class Form1
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.ComboBox4)
         Me.Controls.Add(Me.ComboBox3)
         Me.Controls.Add(Me.ComboBox2)
@@ -1269,7 +1254,6 @@ Partial Class Form1
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -1298,7 +1282,6 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents UltraDataSource1 As Infragistics.Win.UltraWinDataSource.UltraDataSource
@@ -1309,7 +1292,6 @@ Partial Class Form1
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents ComboBox3 As ComboBox
     Friend WithEvents ComboBox4 As ComboBox
-    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label10 As Label
@@ -1388,10 +1370,10 @@ Partial Class Form1
     Friend WithEvents Label44 As Label
     Friend WithEvents Label46 As Label
     Friend WithEvents ComboBox7 As ComboBox
-    Friend WithEvents TextBox20 As TextBox
-    Friend WithEvents Label48 As Label
-    Friend WithEvents RadioButton13 As RadioButton
-    Friend WithEvents RadioButton14 As RadioButton
-    Friend WithEvents Label49 As Label
     Friend WithEvents Label50 As Label
+    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents CheckBox5 As CheckBox
+    Friend WithEvents CheckBox7 As CheckBox
+    Friend WithEvents CheckBox8 As CheckBox
+    Friend WithEvents Label7 As Label
 End Class
